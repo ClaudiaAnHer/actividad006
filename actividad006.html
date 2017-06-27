@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Curriculum </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="breakpoints.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+		body {
+	    display: block;
+	    margin: 0px;
+	}
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	.row:before, .row:after {
+		content: "";
+		display: :table;
+	}
+
+	.row:after {
+		clear: both;
+	}
+
+	.row{
+        clear: both;
+        *zoom: 1;
+	}
+
+	.contenedor {
+
+		background-color: #D8D8D8;
+		padding: 8%;
+		margin-top: 0px;
+	}
+
+	.interior {
+		background-color: #ffffff;
+		width: 100%;
+		height: 1000px;
+		padding: 20px;
+
+	}
+
+	.foto {
+		border-radius: 50%;
+		width: 20%;
+		height: 20%;
+		margin-top: -80px;
+		border-style: solid;
+		border-color:  #D8D8D8;
+		border-width:  0.3em;
+	}
+
+	.cont-foto {
+		 top: 3.500em;
+		 margin-left: auto;
+		 margin-right: auto;
+		 text-align: center;
+
+	}
+
+	.linea {
+		height: 2.5px;
+		width: 95%;
+		background-color: #D8D8D8;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-bottom: 30px;
+
+	}
+
+	.triangulo {
+	     width: 0; 
+	     height: 0; 
+	     border-right: 100px solid #f0ad4e;
+	     border-top: 50px solid transparent;
+	     border-bottom: 50px solid transparent; 
+	}
+
+	.name {
+		color: #FF8000
+	}
+
+	h1 {
+		font-family: "open sans";
+		font-size: 4.2vh;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-family: "open sans";
+		font-size: 3vh;
+		color: #FE7904;
+	}	
+
+	h3 {
+		font-family: "open sans";
+		font-size: 2vh;
+		font-weight: 900;
+
+	}
+
+	.bold {
+		font-weight: 900
+	}
+
+	p { 
+		font-family: "open sans";
+		font-size: 2vh;
+	}
+
+	li {
+		font-family: "open sans";
+		font-size: 2vh;
+	}
+
+	.skills{
+		font-family: "open sans";
+		font-size: 2vh;
+		color: #ffffff;
+		text-transform: uppercase;
+		padding-left: 5px;
+	}
+	.margin {
+		margin-top: 80px;
+	}
+
+	.margin2 {
+		margin-top: 62px;
+	}
+
+	.fechas {
+		font-size: 1.3vh;
+	}
+
+	.edu {
+		height: 100px;
+		width: 500px;
+		padding-top: 2px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+		padding-right: 10px;
+		background-color: #D8D8D8;
+		margin-bottom: 5px;
+	}
+
+	.triangulo {
+	     width: 0; 
+	     height: 0; 
+	     border-right: 12px solid #D8D8D8;
+	     border-top: 6px solid transparent;
+	     border-bottom: 6px solid transparent;
+	     margin-top: 15px;
+	     float: right;
+	}
+
+	.triangulo2 {
+	     width: 0; 
+	     height: 0; 
+	     border-right: 12px solid #D8D8D8;
+	     border-top: 6px solid transparent;
+	     border-bottom: 6px solid transparent;
+	     margin-top: 70px;
+	     float: right;
+	}
+
+	.skills1 {
+		height: 28px;
+		width: 300px;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+	}
+
+	.skills2 {
+		height: 28px;
+		width: 80%;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+	}
+	.skills3 {
+		height: 28px;
+		width: 70%;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+	}
+	.skills4 {
+		height: 28px;
+		width: 60%;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+	}
+	.skills5 {
+		height: 28px;
+		width: 50%;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+	}
+
+	.valor{
+		color: #FE7904;
+		float: right;
+	}
+
+	.valor2{
+		color: #D8D8D8;
+		float: right;
+	}
+
+	hr {
+		background-color: #D8D8D8;
+		height: 1px;
+		border: none;
+	}
+
+	.hob1 {
+		height: 28px;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+		margin-right: 5px;
+		float: left;
+		display: inline;
+	}
+	.hob2 {
+		height: 28px;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+		margin-right: 5px;
+		position: relative;
+		float: left;
+		display: inline;
+	}
+	.hob3 {
+		height: 28px;
+		padding: 5px;
+		background-color: #FE7904;
+		margin-bottom: 8px;
+		margin-right: 5px;
+		position: relative;
+		float: left;
+		display: inline;
+	}
+
+	@media(min-width: 481px){
+  .col-md-1{
+    width: 10%;
+  }
+  .col-md-2{
+    width: 20%;
+  }
+  .col-md-3{
+    width: 30%;
+  }
+  .col-md-4{
+    width: 40%;
+  }
+  .col-md-5{
+    width: 50%;
+  }
+  .col-md-6{
+    width: 60%;
+    padding-right: 40px;
+    padding-left: 20px
+  }
+  .col-md-7{
+    width: 70%;
+  }
+  .col-md-8{
+    width: 80%;
+  }
+  .col-md-9{
+    width: 90%;
+  }
+  .col-md-10{
+    width: 100%;
+  }
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10{
+float: left;
+}
+</style>
+</head>
+<body>
+<section class="contenedor"> 
+	<div class="interior"> 
+<!-- header -->
+				<div class="cont-foto">
+					<img src="img/perfil.png" class="foto">
+				</div>
+					<h1> Hola, me llamo <span class="name">Claudia</span> y este es mi curriculum</h1> 
+				<div class="linea"> </div>
+
+<!-- primera fila -->
+		<section class="row">	
+				<div class="col-md-6"> 
+					<h2> // Acerca de </h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+				</div>
+				<div class="col-md-4">
+			     <h2> // Contacto </h2>
+		          <ul>
+		            <li> Email: <span> claudia.aninir@gmail.com</span> </li>
+		            <li> Skype: <span> canher_mad </span> </li>
+		            <li> Twitter <span> @lalocaintensa </span> </li>
+		            <li> Facebook: <span> /canher_mad </span> </li>
+		          </ul>
+      		  </div>
+		</section>
+<!-- segunda fila -->
+		<section class="row">
+			<div class="col-md-6"> 
+				<h2> // Educación </h2>
+					<div class="col-md-1"> 
+						<div class="triangulo"></div>
+						<p> 2012 </p> 
+						<div class="triangulo2"></div>
+						<p class="margin"> 1986 </p>
+					</div>
+
+					<div class="col-md-9">
+						<div class="edu">
+							<h3> I was born in katowice </h3>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini </p>
+						</div>	
+
+						<div class="edu">
+							<h3> I was born in katowice </h3>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini </p>
+						</div>
+				</div>
+				</div>
+
+			<div class="col-md-4">
+				<h2> // Skills </h2>
+        		<div class="skills1"> <span class="skills"> Python </span> </div>
+		        <div class="skills2"> <span class="skills"> html </span> </div>
+		        <div class="skills3"> <span class="skills"> css </span> </div>
+		        <div class="skills4"> <span class="skills"> js </span> </div>
+		        <div class="skills5"> <span class="skills"> Php </span> </div>
+			</div>
+		</section>
+<!-- tercera fila -->
+		<section class="row">
+			<div class="col-md-6">
+
+				<h2> // Experiencia </h2>
+					<div class="col-md-1"> 
+						<p> Google <span class="fechas"> 2013-2014 </span> </p> 
+						<p class="margin2"> Google <span class="fechas"> 2013-2014 </span> </p>
+					</div>
+					<div class="col-md-9">
+					<div>
+						<h3> Front-end developer | php programmer </h3> 
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+					</div>	
+
+					<div>
+						<h3> Front-end developer | php programmer </h3>
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+					</div>
+				</div>
+				</div>
+
+			<div class="col-md-4">
+				<h2> // Idiomas </h2>
+					
+					<div class="valor"> ★ ★ ★ <span class="valor2"> ★ ★ </span> </div>
+					<p> Español </p>
+					<hr>
+
+					
+					<div class="valor"> ★ ★ ★ ★ <span class="valor2"> ★ </span> </div>
+					<p> Ingles </p>
+					<hr>					
+				<h2> // Hobbies </h2>
+        		<div class="hob1"> <span class="skills"> Cine </span> </div>
+		        <div class="hob2"> <span class="skills"> Fotografía </span> </div>
+		        <div class="hob3"> <span class="skills"> Ipsurem </span> </div>
+				
+			</div>
+				
+			</div>
+		</section>
+
+	</div>
+</section>
+</body>
+</html>
